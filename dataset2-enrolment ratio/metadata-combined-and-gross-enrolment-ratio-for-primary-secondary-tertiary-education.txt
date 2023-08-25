@@ -1,0 +1,76 @@
+# Metadata for Combined And Gross Enrolment Ratio For Primary, Secondary & Tertiary Education
+---
+Identifier: 'f724d798-a6e6-4c8f-9b78-9d4ff36f0974'
+Name: 'combined-and-gross-enrolment-ratio-for-primary-secondary-tertiary-education'
+Title: 'Combined And Gross Enrolment Ratio For Primary, Secondary & Tertiary Education'
+Description:
+  - '- Total number of students enrolled in a given level of education regardless
+    of age expressed as a percentage of population in the theoretical age group for
+    that level of education'
+  - '- Refers to resident population, i.e. Singapore citizens and permanent residents.'
+  - '- From 2005, the gross enrolment ratios include private education institutions.'
+  - '- From 2010, the gross enrolment ratios are adjusted for residents who are based
+    overseas and cannot be enrolled in Singapore.'
+  - '- Year 1 Diploma courses are classified as post-secondary non-tertiary under
+    ISCED 2011 from 2016 onwards.'
+Topics:
+  - 'Education'
+Keywords:
+  - 'ITE'
+  - 'Polytechnics'
+  - 'Pre-University'
+  - 'Primary Education'
+  - 'Schools'
+  - 'Secondary Education'
+  - 'Students'
+  - 'Tertiary Education'
+  - 'University'
+Publisher:
+  Name: 'Ministry of Education'
+  Admin 1:
+    Name: 'Chng Lung Huang'
+    Department: 'RMID'
+    Email: 'moe_management_information@moe.gov.sg'
+Sources:
+  - 'Ministry of Education'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1990-01-01 to 2019-12-31'
+Last Updated: '2022-06-27T00:55:40.509169'
+Resources:
+  -
+    Identifier: '9dcdd20c-e24c-46a4-9044-cc2b2745a7fc'
+    Title: 'Combined And Gross Enrolment Ratio For Primary, Secondary & Tertiary Education'
+    Url: 'https://storage.data.gov.sg/combined-and-gross-enrolment-ratio-for-primary-secondary-tertiary-education/resources/combined-and-gross-enrolment-ratio-for-primary-secondary-tertiary-education-2021-10-15T06-31-25Z.csv'
+    Format: 'CSV'
+    Coverage: '1990-01-01 to 2019-12-31'
+    Last Updated: '2021-10-15T06:31:25.662836'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'category'
+        Title: 'Category'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level_of_education'
+        Title: 'Level Of Education'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'sex'
+        Title: 'Sex'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'gross_enrolment_ratio'
+        Title: 'Gross Enrolment Ratio'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'

@@ -1,0 +1,64 @@
+# Metadata for Number of Classes and Class Size by Level
+---
+Identifier: '40ba8141-0cca-4c02-baa7-f2368d46370a'
+Name: 'number-of-classes-and-class-size-by-level'
+Title: 'Number of Classes and Class Size by Level'
+Description: 'The table shows the number of classes and class size by level, wherein
+  the class size is the average number of students per class, calculated by dividing
+  the number of students enrolled by the number of classes in that level. The classes
+  here refer to form classes only.'
+Topics:
+  - 'Education'
+Keywords:
+  - 'Enrolment'
+  - 'Schools'
+  - 'Students'
+Publisher:
+  Name: 'Ministry of Education'
+  Admin 1:
+    Name: 'Chng Lung Huang'
+    Department: 'Research & Management Information Division'
+    Email: 'moe_management_information@moe.gov.sg'
+Sources:
+  - 'Ministry of Education'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1982-01-01 to 2020-12-31'
+Last Updated: '2021-10-15T08:06:48.337631'
+Resources:
+  -
+    Identifier: '9c44631c-b8cd-499d-b01b-11fa1a5c33c0'
+    Title: 'Number of Classes and Class Size by Level'
+    Url: 'https://storage.data.gov.sg/number-of-classes-and-class-size-by-level/resources/number-of-classes-and-class-size-by-level-2021-10-15T08-06-47Z.csv'
+    Format: 'CSV'
+    Coverage: '1982-01-01 to 2020-12-31'
+    Last Updated: '2021-10-15T08:06:47.939022'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'level_of_education'
+        Title: 'Level Of Education'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'level'
+        Title: 'Level'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_classes'
+        Title: 'No. Of Classes'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. Of Classes'
+      -
+        Name: 'ave_class_size'
+        Title: 'Average Class Size'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Students'
